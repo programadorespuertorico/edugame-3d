@@ -11,7 +11,8 @@
     "redux": "^4.0.0",
     "three": "^0.94.0",
     "three-orbitcontrols": "^2.1.2",
-    "three-trackballcontrols": "0.0.7"
+    "three-trackballcontrols": "0.0.7",
+    "threex": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -53,7 +53,6 @@ class _scene extends Component {
 			  });
 
 			const cube = this._createCube(geometry, material)
-			const ball = this.drawSphere()	
 
 //
   
@@ -78,8 +77,7 @@ class _scene extends Component {
 			const ambient = new THREE.AmbientLight( 0x101030 );
 				scene.add( ambient );
 			scene.add(box)
-			scene.add(ball)
-			renderer.setClearColor('#000000')
+			renderer.setClearColor('#FFFFFF')
 			renderer.setPixelRatio(window.devicePixelRatio)
 			renderer.setSize(width, height)
 const controls = new OrbitControls(camera, renderer.domElement)
@@ -102,7 +100,6 @@ controls.noPan = false;
 			this.cube = cube
 			this.materialColor = materialColor
 			this.box = box
-			this.ball = ball
 
 			this.mount.appendChild(this.renderer.domElement)
 			this.start()
