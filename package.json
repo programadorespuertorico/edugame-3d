@@ -1,0 +1,22 @@
+{
+  "name": "three-dee-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "react-touch-events": "^2.1.0",
+    "redux": "^4.0.0",
+    "three": "^0.94.0",
+    "three-orbitcontrols": "^2.1.2",
+    "three-trackballcontrols": "0.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
